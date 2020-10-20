@@ -1,0 +1,8 @@
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Common\bin\Debug\netcoreapp3.1\StrategyTester.Common.deps.json
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Common\bin\Debug\netcoreapp3.1\StrategyTester.Common.dll
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Common\bin\Debug\netcoreapp3.1\StrategyTester.Common.pdb
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Common\obj\Debug\netcoreapp3.1\StrategyTester.Common.AssemblyInfoInputs.cache
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Common\obj\Debug\netcoreapp3.1\StrategyTester.Common.AssemblyInfo.cs
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Common\obj\Debug\netcoreapp3.1\StrategyTester.Common.csproj.CoreCompileInputs.cache
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Common\obj\Debug\netcoreapp3.1\StrategyTester.Common.dll
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Common\obj\Debug\netcoreapp3.1\StrategyTester.Common.pdb

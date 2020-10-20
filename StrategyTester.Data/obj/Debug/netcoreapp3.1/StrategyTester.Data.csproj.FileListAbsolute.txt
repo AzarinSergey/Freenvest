@@ -1,0 +1,17 @@
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\StrategyTester.Data.deps.json
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\StrategyTester.Data.dll
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\StrategyTester.Data.pdb
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\obj\Debug\netcoreapp3.1\StrategyTester.Data.csprojAssemblyReference.cache
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\obj\Debug\netcoreapp3.1\StrategyTester.Data.AssemblyInfoInputs.cache
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\obj\Debug\netcoreapp3.1\StrategyTester.Data.AssemblyInfo.cs
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\obj\Debug\netcoreapp3.1\StrategyTester.Data.csproj.CoreCompileInputs.cache
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\obj\Debug\netcoreapp3.1\StrategyTester.Data.dll
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\obj\Debug\netcoreapp3.1\StrategyTester.Data.pdb
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\TestData\AAA.csv
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\TestData\CHMF_070101_100901.csv
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\TestData\GMKN_070101_100901.csv
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\TestData\LNZL_070101_100901.csv
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\TestData\SBER_070101_100901.csv
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\StrategyTester.Common.dll
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\bin\Debug\netcoreapp3.1\StrategyTester.Common.pdb
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Data\obj\Debug\netcoreapp3.1\StrategyTester.Data.csproj.CopyComplete

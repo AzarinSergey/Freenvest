@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome5" Version="2.0.8" />
+    <PackageReference Include="Prism.Unity" Version="7.2.0.1422" />
+    <PackageReference Include="Unity.Container" Version="5.11.8" />
+    <PackageReference Include="ChartDirector.Net" Version="6.4.0" />
+    <PackageReference Include="ChartDirector.Net.Desktop.Controls" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\StrategyTester.Contract\StrategyTester.Contract.csproj" />
+    <ProjectReference Include="..\..\StrategyTester.Domain\StrategyTester.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

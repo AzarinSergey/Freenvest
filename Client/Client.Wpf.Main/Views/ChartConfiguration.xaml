@@ -1,0 +1,95 @@
+﻿<UserControl x:Class="Client.Wpf.Main.Views.ChartConfiguration" mc:Ignorable="d"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:Client.Wpf.Main.ViewModels"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <!--<UserControl.DataContext>
+        <vm:ChartConfigurationViewModel />
+    </UserControl.DataContext>-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"></RowDefinition>
+            <RowDefinition Height="40*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+      
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*"></ColumnDefinition>
+                <ColumnDefinition Width="60*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        
+            <StackPanel Grid.Column="0" Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" Margin="5,5,5,5">
+                    <Label>Id:</Label>
+                    <TextBlock Text="{Binding Identifier}" Margin="0,5,0,0"></TextBlock>
+                </StackPanel>
+
+                <Grid Margin="5,5,5,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="35*"></ColumnDefinition>
+                        <ColumnDefinition Width="65*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                  
+                    <Label>Chart name:</Label>
+                    <TextBox Grid.Column="1"
+                             Text="{Binding ChartName, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Stretch"/>
+                </Grid>
+
+                <Grid Margin="5,5,5,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="35*"></ColumnDefinition>
+                        <ColumnDefinition Width="65*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label>Time frame:</Label>
+                    <ComboBox Grid.Column="1" ItemsSource="{Binding TimeFrameList}" 
+                              SelectedItem="{Binding SelectedTimeFrame}"/>
+                </Grid>
+
+                <Grid Margin="5,5,5,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="35*"></ColumnDefinition>
+                        <ColumnDefinition Width="65*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label>Data file: </Label>
+                    <ComboBox Grid.Column="1" ItemsSource="{Binding DataFileList}" 
+                              SelectedItem="{Binding SelectedDataFile}"/>
+                </Grid>
+
+            </StackPanel>
+
+            <Grid Grid.Column="1"  Margin="5,5,5,5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"></RowDefinition>
+                    <RowDefinition Height="40*"></RowDefinition>
+                    <RowDefinition Height="40*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Content="Data: " VerticalContentAlignment="Bottom"></Label>
+                <Button Grid.Column="1" Grid.Row="0"
+                    Command="{Binding LoadData}" Content=" LOAD DATA " Margin="5,5,5,5" HorizontalAlignment="Right" />
+
+                <ListBox Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.IsSharedSizeScope="True" 
+                         ItemsSource="{Binding CurrentStockItemHistoryView}"/>
+            </Grid>
+        </Grid>
+
+
+        <StackPanel Grid.Row="2" DockPanel.Dock="Bottom" Orientation="Horizontal" 
+                    HorizontalAlignment="Right">
+            <Button Command="{Binding RemoveChart}" Content=" REMOVE CHART " Margin="5,5,5,5" Background="#FFEEACAC"  />
+            <Button Command="{Binding CreateOrUpdateChart}" Content="{Binding CreateOrUpdateChartButtonContent}" Margin="5,5,5,5" Background="#FF77E08F" />
+        </StackPanel>
+
+    </Grid>
+</UserControl>

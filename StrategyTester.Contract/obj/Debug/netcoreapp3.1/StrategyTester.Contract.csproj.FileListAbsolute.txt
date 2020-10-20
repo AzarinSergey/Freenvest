@@ -1,0 +1,12 @@
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\bin\Debug\netcoreapp3.1\StrategyTester.Contract.deps.json
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\bin\Debug\netcoreapp3.1\StrategyTester.Contract.dll
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\bin\Debug\netcoreapp3.1\StrategyTester.Contract.pdb
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\bin\Debug\netcoreapp3.1\StrategyTester.Common.dll
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\bin\Debug\netcoreapp3.1\StrategyTester.Common.pdb
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\obj\Debug\netcoreapp3.1\StrategyTester.Contract.csprojAssemblyReference.cache
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\obj\Debug\netcoreapp3.1\StrategyTester.Contract.AssemblyInfoInputs.cache
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\obj\Debug\netcoreapp3.1\StrategyTester.Contract.AssemblyInfo.cs
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\obj\Debug\netcoreapp3.1\StrategyTester.Contract.csproj.CoreCompileInputs.cache
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\obj\Debug\netcoreapp3.1\StrategyTester.Contract.csproj.CopyComplete
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\obj\Debug\netcoreapp3.1\StrategyTester.Contract.dll
+C:\Users\azarin.sa\source\repos\StrategyTester\StrategyTester.Contract\obj\Debug\netcoreapp3.1\StrategyTester.Contract.pdb

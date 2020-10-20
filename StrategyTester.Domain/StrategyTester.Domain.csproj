@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.11.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StrategyTester.Common\StrategyTester.Common.csproj" />
+    <ProjectReference Include="..\StrategyTester.Contract\StrategyTester.Contract.csproj" />
+    <ProjectReference Include="..\StrategyTester.Data\StrategyTester.Data.csproj" />
+  </ItemGroup>
+
+</Project>
