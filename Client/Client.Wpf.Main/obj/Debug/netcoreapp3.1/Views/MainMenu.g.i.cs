@@ -9,6 +9,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using ChartDirector;
+using Client.Wpf.Main;
 using Client.Wpf.Main.ViewModels;
 using System;
 using System.Diagnostics;
